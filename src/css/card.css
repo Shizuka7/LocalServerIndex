@@ -4,44 +4,50 @@
     justify-content: center;
     gap: 16px;
 }
-.card {
-    margin: 16px;
-}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: url('/img/1710168077206.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
+
 .card {
-    background-color: #fff;
+    background-color: #ffffff99;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;
     max-width: 100%;
     text-align: left;
+    margin: 16px;
 }
+
 .card-header {
-    background-color: #e9ecef;
+    background-color: #e9ecefaa;
     color: #183153;
     padding: 16px;
 }
+
 .card-header h2 {
     margin: 0;
     font-size: 1.5rem;
 }
+
 .card-content {
     padding: 16px;
 }
+
 .card-content p {
     margin: 0;
     color: #333;
     line-height: 2;
 }
+
 .button {
     display: inline-block;
     padding: 8px 16px;
@@ -52,10 +58,12 @@ body {
     border-radius: 4px;
     transition: background-color 0.3s ease-in-out;
 }
+
 .button:hover {
     background-color: #728c5e;
 }
-.buttom-fixed{
+
+.buttom-fixed {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -63,7 +71,4 @@ body {
     background-color: bisque;
     height: 50px;
 }
-.body{
-    background: url('/img/1710168077206.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
+
