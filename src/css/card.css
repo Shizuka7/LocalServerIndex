@@ -71,3 +71,17 @@ body {
     background-color: #99ffffaa;
     height: 50px;
 }
+.top-fixed{
+    position: fixed;
+    top: 5px;
+    width: 99%;
+    background-color: #76ffffaa;
+    height: 50px;
+    border-radius: 2%;
+}
+.top-fixed h2{
+    margin: 0;
+    font-size: 1.5rem;
+    color: #183153;
+    padding: 16px;
+}
