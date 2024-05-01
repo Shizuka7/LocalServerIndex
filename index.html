@@ -5,81 +5,10 @@
     <script src="src/js/copy.js"></script>
     <meta charset="utf-8">
     <meta name="robots" content="noindex,nofollow" />
-    <style>
-        .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 16px;
-        }
-
-        .card {
-            margin: 16px;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            width: 300px;
-            max-width: 100%;
-            text-align: left;
-        }
-
-        .card-header {
-            background-color: #e9ecef;
-            /* 高级灰色 */
-            color: #183153;
-            padding: 16px;
-        }
-
-        .card-header h2 {
-            margin: 0;
-            font-size: 1.5rem;
-        }
-
-        .card-content {
-            padding: 16px;
-        }
-
-        .card-content p {
-            margin: 0;
-            color: #333;
-            /* 深灰色文字 */
-            line-height: 2;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 8px 16px;
-            margin-top: 16px;
-            background-color: #8ca86d;
-            /* 设置为 #8ca86d */
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .button:hover {
-            background-color: #728c5e;
-            /* hover 状态的颜色 */
-        }
-    </style>
+    <link rel="stylesheet" href="src/css/card.css">
 </head>
 
-<body>
+<body class="body">
     <div class="card-container">
         <div class="card">
             <div class="card-header">
@@ -274,8 +203,8 @@
             </div>
         </div>
     </div>
-    <div>
-        <div class="pageend">
+    <div class="buttom-fixed">
+        <div class="">
             <span>这是一个跳转列表，目前还没写完</span>
         </div>
     </div>
